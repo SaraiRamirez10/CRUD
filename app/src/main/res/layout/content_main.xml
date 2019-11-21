@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:fontFamily="serif-monospace"
-        android:text="CRUD/MYSQL"
+        android:text="CRUD MYSQL"
         android:textAlignment="center"
         android:textColor="#000"
         android:textSize="26dp"
@@ -40,9 +40,10 @@
                 android:hint="Código"
                 android:inputType="number"
                 android:shadowRadius="5"
-                android:paddingLeft="25dp"
                 android:drawablePadding="5dp"
                 android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
                 />
 
             <EditText
@@ -51,8 +52,9 @@
                 android:layout_height="wrap_content"
                 android:hint="Descripción"
                 android:layout_marginTop="20dp"
-                android:paddingLeft="25dp"
                 android:drawablePadding="5dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
                 />
 
             <EditText
@@ -62,8 +64,9 @@
                 android:hint="Precio"
                 android:layout_marginTop="20dp"
                 android:inputType="numberDecimal"
-                android:paddingLeft="25dp"
                 android:drawablePadding="5dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
                 />
 
 
